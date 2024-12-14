@@ -1,3 +1,5 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 
 const LoginPage = () => {
@@ -5,7 +7,11 @@ const LoginPage = () => {
 
     <>
 
-    <div>Login </div>
+    <Header/>
+
+    <div>Login Page</div>
+
+    <Footer/>
 
     
 

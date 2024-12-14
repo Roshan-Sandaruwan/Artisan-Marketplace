@@ -1,6 +1,17 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
 const RegisterPage = () => {
   return (
-    <div>Register</div>
+
+    <>
+      <Header/>
+
+      <div>Register Page</div>
+      
+      <Footer/>
+    </>
+
   )
 }
 

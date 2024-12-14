@@ -1,7 +1,18 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+
+    <>
+      <Header/>
+
+      <div>Home Page</div>
+
+      <Footer/>
+    </>
+
+
   )
 }
 
