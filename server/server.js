@@ -67,7 +67,7 @@ app.patch("/api/products/:id", async (req, res) => {
         .json({ success: false, message: "Product not found" });
     }
 
-    res.status(200).json({ success: true, data: updatedProduct });
+    res.status(200).json({ success: true, message:"Product Updated", data: updatedProduct });
   } catch (error) {
     console.error("Error in updating product", error.message);
     res.status(500).json({ success: false, message: "Server Error" });
