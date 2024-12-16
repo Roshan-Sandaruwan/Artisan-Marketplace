@@ -5,9 +5,10 @@ import productRoutes from "./routes/product.route.js";
 
 const app = express();
 
-app.use(express.json()); //allow access JSON data in to body
+//allow access JSON data in to body
+app.use(express.json()); 
 
-// main Product Route
+// main Product api
 app.use("/api/products", productRoutes);
 
 console.log(process.env.MONGO_URI);
