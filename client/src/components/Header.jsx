@@ -16,7 +16,7 @@ const Header = () => {
 
   }
   const handleHomePageClick = () => {
-    navigate("/home"); // Navigate to the about us page
+    navigate("/"); // Navigate to the about us page
   };
 
 
