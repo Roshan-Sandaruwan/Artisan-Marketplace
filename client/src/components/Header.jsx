@@ -1,4 +1,25 @@
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const navigate = useNavigate(); // Initialize navigation function
+
+  const handleLoginClick = () => {
+    navigate("/login"); // Navigate to the login page
+  };
+
+  const handleSignupClick = () => {
+    navigate("/signup"); // Navigate to the signup page
+  };
+
+  const handleAboutUsClick = () => {
+    navigate("/aboutus"); // Navigate to the about us page
+
+  }
+  const handleHomePageClick = () => {
+    navigate("/home"); // Navigate to the about us page
+  };
+
+
   return (
     <header className="w-full bg-white shadow-md px-4 py-2 flex items-center justify-between md:px-8">
       {/* Left Section */}
@@ -11,7 +32,8 @@ const Header = () => {
           />
         </div>
         <div>
-          <p className="text-xs font-bold uppercase text-gray-700">
+          <p onClick={handleHomePageClick}
+          className="text-xs font-bold uppercase text-gray-700">
             Marketplace
           </p>
           <p className="text-xs text-gray-500">Best Handmade Products</p>
@@ -21,20 +43,29 @@ const Header = () => {
       {/* Center Section */}
       <div className="text-center">
         <h1 className="text-lg font-semibold text-gray-800">
-          <span className="font-light">Artician</span> Marketplace
+          <span className="font-light">Artician</span> 
+          Marketplace
         </h1>
         <p className="text-xs text-gray-500">Best Handmade Products</p>
       </div>
 
       {/* Right Section */}
       <div className="flex items-center space-x-4">
-        <button className="text-sm font-medium text-gray-700 hover:text-gray-900">
+        <button
+          onClick={handleSignupClick}
+          className="text-sm font-medium text-gray-700 hover:text-gray-900"
+        >
           SIGN UP
         </button>
-        <button className="text-sm font-medium text-gray-700 hover:text-gray-900">
+        <button
+          onClick={handleLoginClick}
+          className="text-sm font-medium text-gray-700 hover:text-gray-900"
+        >
           LOG IN
         </button>
-        <button className="text-sm font-medium text-gray-700 hover:text-gray-900">
+        <button 
+        onClick={handleAboutUsClick}
+        className="text-sm font-medium text-gray-700 hover:text-gray-900">
           ABOUT US
         </button>
       </div>
