@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome
 
 const Footer = () => {
   return (
@@ -78,6 +79,7 @@ const Footer = () => {
             href="https://facebook.com"
             aria-label="Facebook"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white"
           >
             <i className="fab fa-facebook-f"></i>
@@ -86,6 +88,7 @@ const Footer = () => {
             href="https://twitter.com"
             aria-label="Twitter"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white"
           >
             <i className="fab fa-twitter"></i>
@@ -94,6 +97,7 @@ const Footer = () => {
             href="https://instagram.com"
             aria-label="Instagram"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white"
           >
             <i className="fab fa-instagram"></i>
@@ -102,6 +106,7 @@ const Footer = () => {
             href="https://linkedin.com"
             aria-label="LinkedIn"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-white"
           >
             <i className="fab fa-linkedin-in"></i>
