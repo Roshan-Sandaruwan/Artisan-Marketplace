@@ -1,31 +1,32 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-8 pb-4">
       {/* Top Section */}
       <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-6">
-        {/* Column 1 - Navigation Links */}
         <div>
           <h2 className="text-lg font-semibold text-white mb-4">Quick Links</h2>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <Link to="/aboutus" className="hover:text-white">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <Link to="/shop" className="hover:text-white">
                 Shop
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <Link to="/contact" className="hover:text-white">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -36,7 +37,7 @@ const Footer = () => {
             About Artician Marketplace
           </h2>
           <p className="text-sm leading-relaxed">
-            We connect local Articians with premium customers, bringing
+            We connect local artisans with premium customers, bringing
             handcrafted products to your doorstep. Discover quality and
             authenticity with us.
           </p>
@@ -73,16 +74,36 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="#" aria-label="Facebook" className="hover:text-white">
+          <a
+            href="https://facebook.com"
+            aria-label="Facebook"
+            target="_blank"
+            className="hover:text-white"
+          >
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#" aria-label="Twitter" className="hover:text-white">
+          <a
+            href="https://twitter.com"
+            aria-label="Twitter"
+            target="_blank"
+            className="hover:text-white"
+          >
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#" aria-label="Instagram" className="hover:text-white">
+          <a
+            href="https://instagram.com"
+            aria-label="Instagram"
+            target="_blank"
+            className="hover:text-white"
+          >
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#" aria-label="LinkedIn" className="hover:text-white">
+          <a
+            href="https://linkedin.com"
+            aria-label="LinkedIn"
+            target="_blank"
+            className="hover:text-white"
+          >
             <i className="fab fa-linkedin-in"></i>
           </a>
         </div>

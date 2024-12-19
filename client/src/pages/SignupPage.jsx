@@ -52,13 +52,13 @@ const SignUpPage = () => {
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-xl bg-gray-200 rounded-lg shadow-md p-6">
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Username */}
             <div>
               <label
                 htmlFor="username"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Username
               </label>
@@ -69,7 +69,7 @@ const SignUpPage = () => {
                 required
                 value={formData.username}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -77,7 +77,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="sellerName"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Seller Name
               </label>
@@ -88,7 +88,7 @@ const SignUpPage = () => {
                 required
                 value={formData.sellerName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -96,7 +96,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="shopName"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Shop Name
               </label>
@@ -107,7 +107,7 @@ const SignUpPage = () => {
                 required
                 value={formData.shopName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -115,7 +115,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="itemType"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Item Type
               </label>
@@ -126,7 +126,7 @@ const SignUpPage = () => {
                 required
                 value={formData.itemType}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -134,7 +134,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Email
               </label>
@@ -145,7 +145,7 @@ const SignUpPage = () => {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -153,7 +153,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="phoneNumber"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Phone Number
               </label>
@@ -164,7 +164,7 @@ const SignUpPage = () => {
                 required
                 value={formData.phoneNumber}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -172,7 +172,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="password"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Password
               </label>
@@ -183,7 +183,7 @@ const SignUpPage = () => {
                 required
                 value={formData.password}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -191,7 +191,7 @@ const SignUpPage = () => {
             <div>
               <label
                 htmlFor="confirmPassword"
-                className="block text-sm font-medium text-gray-900"
+                className="block text-sm font-medium text-gray-900 mb-1"
               >
                 Confirm Password
               </label>
@@ -202,7 +202,7 @@ const SignUpPage = () => {
                 required
                 value={formData.confirmPassword}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-indigo-600"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               />
             </div>
 
@@ -213,7 +213,7 @@ const SignUpPage = () => {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-gray-700 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-950 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-gray-700"
               >
                 Sign Up
               </button>
