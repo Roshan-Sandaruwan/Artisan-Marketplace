@@ -13,12 +13,10 @@ const Header = () => {
 
   const handleAboutUsClick = () => {
     navigate("/aboutus"); // Navigate to the about us page
-
-  }
+  };
   const handleHomePageClick = () => {
     navigate("/"); // Navigate to the about us page
   };
-
 
   return (
     <header className="w-full bg-white shadow-md px-4 py-2 flex items-center justify-between md:px-8">
@@ -32,9 +30,11 @@ const Header = () => {
           />
         </div>
         <div>
-          <p onClick={handleHomePageClick}
-          className="text-xs font-bold uppercase text-gray-700">
-            Marketplace
+          <p
+            onClick={handleHomePageClick}
+            className="text-xs font-bold uppercase text-gray-700"
+          >
+            Artician Marketplace
           </p>
           <p className="text-xs text-gray-500">Best Handmade Products</p>
         </div>
@@ -43,8 +43,8 @@ const Header = () => {
       {/* Center Section */}
       <div className="text-center">
         <h1 className="text-lg font-semibold text-gray-800">
-          <span className="font-light">Artician</span> 
-          Marketplace
+          <span className="font-bold">Artify</span>
+          
         </h1>
         <p className="text-xs text-gray-500">Best Handmade Products</p>
       </div>
@@ -63,9 +63,10 @@ const Header = () => {
         >
           LOG IN
         </button>
-        <button 
-        onClick={handleAboutUsClick}
-        className="text-sm font-medium text-gray-700 hover:text-gray-900">
+        <button
+          onClick={handleAboutUsClick}
+          className="text-sm font-medium text-gray-700 hover:text-gray-900"
+        >
           ABOUT US
         </button>
       </div>
