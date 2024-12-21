@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import LogoImage from "../assets/Articain.png";
+import LogoImage from "../assets/Artisan.png";
 
 const Header = () => {
   const navigate = useNavigate(); // Initialize navigation function
@@ -35,7 +35,7 @@ const Header = () => {
             onClick={handleHomePageClick}
             className="text-xs font-bold uppercase text-white"
           >
-            Artician Marketplace
+            Artisan Marketplace
           </p>
         </div>
       </div>
@@ -43,7 +43,7 @@ const Header = () => {
       {/* Center Section */}
       <div className="text-center">
         <h1 className="text-lg font-semibold text-white">
-          <span className="font-bold">Artifi</span>
+          <span className="font-bold">Artify</span>
         </h1>
         <p className="text-xs text-gray-100">Best Handmade Products</p>
       </div>
