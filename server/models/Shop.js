@@ -12,6 +12,10 @@ const shopSchema = new mongoose.Schema({
     coverImage:{
         type:String,
         required:true
+    },
+    shopLocation:{
+        type:String,
+        required:true
     }
 },
 {
