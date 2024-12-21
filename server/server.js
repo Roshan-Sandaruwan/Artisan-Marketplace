@@ -1,10 +1,12 @@
 import express from "express";
+import cors from 'cors';
 import { connectDB } from "./config/db.js";
 import productRoutes from "./routes/product.route.js";
 import shopRoutes from "./routes/shop.route.js";
 import userRoutes from "./routes/user.route.js";
 
 import cors from "cors";
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;

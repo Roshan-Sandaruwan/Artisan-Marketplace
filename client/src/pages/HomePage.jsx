@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ShopList from "../components/ShopList";
 
 const HomePage = () => {
   return (
@@ -154,9 +155,13 @@ const HomePage = () => {
         </section>
       </main>
 
+      <ShopList/>
+
       <Footer />
     </>
   );
 };
 
 export default HomePage;
+
+

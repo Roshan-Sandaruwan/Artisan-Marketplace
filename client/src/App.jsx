@@ -14,7 +14,6 @@ import ContactPage from "./pages/ContactPage";
 const App = () => {
   return (
     <Router>
-      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/register" element={<RegisterPage />}></Route>
@@ -24,7 +23,6 @@ const App = () => {
         <Route path="/shop" element={<ShopPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>
-      {/* <Footer /> */}
     </Router>
   );
 };
