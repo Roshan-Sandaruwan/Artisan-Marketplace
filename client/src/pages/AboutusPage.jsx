@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LogoImage from "../assets/Artisan.png";
 
-
 const AboutusPage = () => {
   return (
     <>
