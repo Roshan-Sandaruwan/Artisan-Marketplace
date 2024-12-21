@@ -33,7 +33,7 @@ const HomePage = () => {
                 <option>Categories</option>
               </select>
               <select className="border py-2 px-3 rounded-md bg-white">
-                <option>Articians</option>
+                <option>Artisans</option>
               </select>
               <select className="border py-2 px-3 rounded-md bg-white">
                 <option>Regions</option>
@@ -48,9 +48,9 @@ const HomePage = () => {
         {/* Artisan Item Cards */}
         <section className="container mx-auto px-4 py-6">
           <h2 className="text-lg font-semibold text-gray-700 mb-4">
-            All Artician
+            All Artisans
             <span className="block text-sm text-gray-500">
-              5 Artician listed
+              5 Artisan listed
             </span>
           </h2>
 
@@ -64,7 +64,7 @@ const HomePage = () => {
               />
               <div className="p-4">
                 <h3 className="text-md font-semibold text-gray-700">
-                  Artician Shop name
+                  Artisan Shop name
                 </h3>
                 <p className="text-sm text-gray-500">Description</p>
                 <p className="text-xs text-gray-400 mt-2">Location</p>
@@ -83,7 +83,7 @@ const HomePage = () => {
               />
               <div className="p-4">
                 <h3 className="text-md font-semibold text-gray-700">
-                  Artician Shop Name
+                  Artisan Shop Name
                 </h3>
                 <p className="text-sm text-gray-500">Description</p>
                 <p className="text-xs text-gray-400 mt-2">Location</p>
@@ -102,7 +102,7 @@ const HomePage = () => {
               />
               <div className="p-4">
                 <h3 className="text-md font-semibold text-gray-700">
-                  Artician Shop Name
+                  Artisan Shop Name
                 </h3>
                 <p className="text-sm text-gray-500">Description</p>
                 <p className="text-xs text-gray-400 mt-2">Location</p>
@@ -121,7 +121,7 @@ const HomePage = () => {
               />
               <div className="p-4">
                 <h3 className="text-md font-semibold text-gray-700">
-                  Artician Shop Name
+                  Artisan Shop Name
                 </h3>
                 <p className="text-sm text-gray-500">Description</p>
                 <p className="text-xs text-gray-400 mt-2">Location</p>
@@ -140,7 +140,7 @@ const HomePage = () => {
               />
               <div className="p-4">
                 <h3 className="text-md font-semibold text-gray-700">
-                  Artician Shop Name
+                  Artisan Shop Name
                 </h3>
                 <p className="text-sm text-gray-500">Description</p>
                 <p className="text-xs text-gray-400 mt-2">Location</p>

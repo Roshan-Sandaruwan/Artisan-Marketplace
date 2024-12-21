@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome
+//import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome
 
 const Footer = () => {
   return (

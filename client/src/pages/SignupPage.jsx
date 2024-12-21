@@ -6,7 +6,7 @@ import Header from "../components/Header";
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
     username: "",
-    userType: "Artician", // Default selection
+    userType: "Artisan", // Default selection
     email: "",
     phoneNumber: "",
     password: "",
@@ -86,7 +86,7 @@ const SignUpPage = () => {
                 onChange={handleChange}
                 className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
               >
-                <option value="Artisan">Artician</option>
+                <option value="Artisan">Artisan</option>
                 <option value="Buyer">Buyer</option>
               </select>
             </div>

@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import LogoImage from "../assets/Articain.png";
+import LogoImage from "../assets/Artisan.png";
 
 const AboutusPage = () => {
   return (
@@ -12,10 +12,10 @@ const AboutusPage = () => {
           {/* Hero Section */}
           <div className="text-center">
             <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl">
-              About Artician Marketplace
+              About Artisan Marketplace
             </h1>
             <p className="mt-4 text-lg text-gray-600">
-              Connecting Artician with Premium Customers
+              Connecting Artisan with Premium Customers
             </p>
           </div>
 
@@ -33,14 +33,14 @@ const AboutusPage = () => {
                 Who We Are
               </h2>
               <p className="mt-4 text-gray-100 leading-relaxed">
-                Artician Marketplace is a platform designed to bring talented
-                local artician and creators together with premium customers. We
+                Artisan Marketplace is a platform designed to bring talented
+                local Artisan and creators together with premium customers. We
                 showcase unique, high-quality handmade goods ranging from art,
                 decor, and clothing to specialty items that you won’t find
                 anywhere else.
               </p>
               <p className="mt-4 text-gray-100 leading-relaxed">
-                Our mission is to create a thriving marketplace for artician to
+                Our mission is to create a thriving marketplace for artisan to
                 sell their products, connect with customers, and grow their
                 small businesses.
               </p>
@@ -56,10 +56,10 @@ const AboutusPage = () => {
               {/* Card 1 */}
               <div className="rounded-lg bg-gray-200 p-6 shadow-md hover:shadow-lg">
                 <h3 className="text-xl font-bold text-gray-800">
-                  Support Artician
+                  Support Artisan
                 </h3>
                 <p className="mt-2 text-gray-600">
-                  We provide artician with a platform to showcase and sell their
+                  We provide artisan with a platform to showcase and sell their
                   handcrafted products to a global audience.
                 </p>
               </div>
@@ -70,8 +70,8 @@ const AboutusPage = () => {
                   Promote Local Talent
                 </h3>
                 <p className="mt-2 text-gray-600">
-                  Artician Marketplace is committed to promoting local talent
-                  and helping small businesses thrive.
+                  Artisan Marketplace is committed to promoting local talent and
+                  helping small businesses thrive.
                 </p>
               </div>
 
@@ -105,7 +105,7 @@ const AboutusPage = () => {
                   Authenticity
                 </h3>
                 <p className="mt-2 text-gray-600">
-                  Supporting real articians and original handcrafted goods.
+                  Supporting real artisans and original handcrafted goods.
                 </p>
               </div>
               <div className="md:w-1/3 text-center">
@@ -113,7 +113,7 @@ const AboutusPage = () => {
                   Community
                 </h3>
                 <p className="mt-2 text-gray-600">
-                  Building a community where articians and customers thrive.
+                  Building a community where artisans and customers thrive.
                 </p>
               </div>
             </div>
