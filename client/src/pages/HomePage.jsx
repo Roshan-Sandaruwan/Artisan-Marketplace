@@ -56,7 +56,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Single Item Card 1 */}
-            <div className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Artisan Image"
@@ -75,7 +75,7 @@ const HomePage = () => {
             </div>
 
             {/* Single Item Card  2*/}
-            <div className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Artisan Image"
@@ -94,7 +94,7 @@ const HomePage = () => {
             </div>
 
             {/* Single Item Card  3*/}
-            <div className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Artisan Image"
@@ -113,7 +113,7 @@ const HomePage = () => {
             </div>
 
             {/* Single Item Card  4*/}
-            <div className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Artisan Image"
@@ -132,7 +132,7 @@ const HomePage = () => {
             </div>
 
             {/* Single Item Card  5*/}
-            <div className="bg-white rounded-lg shadow overflow-hidden">
+            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Artisan Image"
@@ -155,7 +155,7 @@ const HomePage = () => {
         </section>
       </main>
 
-      <ShopList/>
+      <ShopList />
 
       <Footer />
     </>
