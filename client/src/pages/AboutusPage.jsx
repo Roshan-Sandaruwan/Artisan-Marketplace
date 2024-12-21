@@ -25,7 +25,7 @@ const AboutusPage = () => {
               <img
                 src={NewLogoImage} // Replace with image URL
                 alt="Artisan Marketplace"
-                className="rounded-lg shadow-md"
+                className="rounded-lg"
               />
             </div>
             <div className="rounded-lg bg-gray-700 mt-8 md:mt-0 md:w-1/2 p-6 shadow-md hover:shadow-lg">

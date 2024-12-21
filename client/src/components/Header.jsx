@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import NewLogoImage from "../assets/NewArtisan.png";
+import WhiteLogo from "../assets/White.png";
 
 const Header = () => {
   const navigate = useNavigate(); // Initialize navigation function
@@ -23,17 +23,17 @@ const Header = () => {
     <header className="w-full bg-gray-900 shadow-md px-4 py-2 flex items-center justify-between md:px-8">
       {/* Left Section */}
       <div className="flex items-center space-x-2">
-        <div className="w-8 h-8 bg-gray-300 rounded flex items-center justify-center">
+        <div className="w-8 h-8 rounded flex items-center justify-center">
           <img
-            src={NewLogoImage}
+            src={WhiteLogo}
             alt="logo"
-            className="h-[35px] w-[35px] object-cover rounded"
+            className="h-[38px] w-[38px] hover:cursor-pointer "
           />
         </div>
         <div>
           <p
             onClick={handleHomePageClick}
-            className="text-xs font-bold uppercase text-white"
+            className="text-xs font-bold uppercase text-white hover:cursor-pointer"
           >
             Artisan Marketplace
           </p>
