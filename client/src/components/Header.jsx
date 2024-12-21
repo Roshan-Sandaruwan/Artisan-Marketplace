@@ -1,5 +1,5 @@
   import { useNavigate } from "react-router-dom";
-  import LogoImage from "../assets/White.png";
+  import WhiteLogoImage from "../assets/White.png";
 
   const Header = () => {
     const navigate = useNavigate(); // Initialize navigation function
@@ -25,7 +25,7 @@
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gray-300 rounded flex items-center justify-center">
             <img
-              src={LogoImage}
+              src={WhiteLogoImage}
               alt="logo"
               className="h-[35px] w-[35px] object-cover rounded"
             />
