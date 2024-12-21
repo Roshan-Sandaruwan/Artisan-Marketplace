@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import LogoImage from "../assets/Artisan.png";
+import NewLogoImage from "../assets/NewArtisan.png";
 
 const Header = () => {
   const navigate = useNavigate(); // Initialize navigation function
@@ -25,7 +25,7 @@ const Header = () => {
       <div className="flex items-center space-x-2">
         <div className="w-8 h-8 bg-gray-300 rounded flex items-center justify-center">
           <img
-            src={LogoImage}
+            src={NewLogoImage}
             alt="logo"
             className="h-[35px] w-[35px] object-cover rounded"
           />
