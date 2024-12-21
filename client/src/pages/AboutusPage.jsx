@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import LogoImage from "../assets/Artisan.png";
+import NewLogoImage from "../assets/NewArtisan.png";
 
 const AboutusPage = () => {
   return (
@@ -23,9 +23,9 @@ const AboutusPage = () => {
           <div className="mt-12 flex flex-col md:flex-row md:items-center md:space-x-12">
             <div className="md:w-1/2">
               <img
-                src={LogoImage} // Replace with image URL
+                src={NewLogoImage} // Replace with image URL
                 alt="Artisan Marketplace"
-                className="rounded-lg shadow-md"
+                className="rounded-lg"
               />
             </div>
             <div className="rounded-lg bg-gray-700 mt-8 md:mt-0 md:w-1/2 p-6 shadow-md hover:shadow-lg">
