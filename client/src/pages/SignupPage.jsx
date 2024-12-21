@@ -6,9 +6,7 @@ import Header from "../components/Header";
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
     username: "",
-    sellerName: "",
-    shopName: "",
-    itemType: "",
+    userType: "Artician", // Default selection
     email: "",
     phoneNumber: "",
     password: "",
@@ -73,61 +71,24 @@ const SignUpPage = () => {
               />
             </div>
 
-            {/* Seller Name */}
+            {/* User Type Dropdown */}
             <div>
               <label
-                htmlFor="sellerName"
+                htmlFor="userType"
                 className="block text-sm font-medium text-gray-900 mb-1"
               >
-                Seller Name
+                User Type
               </label>
-              <input
-                id="sellerName"
-                name="sellerName"
-                type="text"
-                required
-                value={formData.sellerName}
+              <select
+                id="userType"
+                name="userType"
+                value={formData.userType}
                 onChange={handleChange}
                 className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
-              />
-            </div>
-
-            {/* Shop Name */}
-            <div>
-              <label
-                htmlFor="shopName"
-                className="block text-sm font-medium text-gray-900 mb-1"
               >
-                Shop Name
-              </label>
-              <input
-                id="shopName"
-                name="shopName"
-                type="text"
-                required
-                value={formData.shopName}
-                onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
-              />
-            </div>
-
-            {/* Item Type */}
-            <div>
-              <label
-                htmlFor="itemType"
-                className="block text-sm font-medium text-gray-900 mb-1"
-              >
-                Item Type
-              </label>
-              <input
-                id="itemType"
-                name="itemType"
-                type="text"
-                required
-                value={formData.itemType}
-                onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:outline-gray-800"
-              />
+                <option value="Artisan">Artician</option>
+                <option value="Buyer">Buyer</option>
+              </select>
             </div>
 
             {/* Email */}
