@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import LogoImage from "../assets/Articain.png";
 
-
 const Header = () => {
   const navigate = useNavigate(); // Initialize navigation function
 
@@ -38,7 +37,6 @@ const Header = () => {
           >
             Artician Marketplace
           </p>
-          <p className="text-xs text-gray-100">Best Handmade Products</p>
         </div>
       </div>
 
