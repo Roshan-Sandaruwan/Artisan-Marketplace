@@ -88,18 +88,18 @@ const LoginPage = () => {
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-gray-700 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-950 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-gray-700"
               >
-                Log in
+                Log In
               </button>
             </div>
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Not a member?{" "}
+            If you don&apos;t have an account?{" "}
             <Link
-              to="/register"
+              to="/signup"
               className="font-semibold text-indigo-600 hover:text-indigo-500"
             >
-              Start a 14 day free trial
+              Sign up here
             </Link>
           </p>
         </div>
