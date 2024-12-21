@@ -1,5 +1,5 @@
   import { useNavigate } from "react-router-dom";
-  import LogoImage from "../assets/Artisan.png";
+  import LogoImage from "../assets/White.png";
 
   const Header = () => {
     const navigate = useNavigate(); // Initialize navigation function
