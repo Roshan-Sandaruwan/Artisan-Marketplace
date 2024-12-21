@@ -48,114 +48,19 @@ const HomePage = () => {
         {/* Artisan Item Cards */}
         <section className="container mx-auto px-4 py-6">
           <h2 className="text-lg font-semibold text-gray-700 mb-4">
+
             All Artisans
             <span className="block text-sm text-gray-500">
               5 Artisan listed
             </span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Single Item Card 1 */}
-            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300"
-                alt="Artisan Image"
-                className="h-32 w-full object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-md font-semibold text-gray-700">
-                  Artisan Shop name
-                </h3>
-                <p className="text-sm text-gray-500">Description</p>
-                <p className="text-xs text-gray-400 mt-2">Location</p>
-                <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
-                </button>
-              </div>
-            </div>
+          <ShopList />
 
-            {/* Single Item Card  2*/}
-            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300"
-                alt="Artisan Image"
-                className="h-32 w-full object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-md font-semibold text-gray-700">
-                  Artisan Shop Name
-                </h3>
-                <p className="text-sm text-gray-500">Description</p>
-                <p className="text-xs text-gray-400 mt-2">Location</p>
-                <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
-                </button>
-              </div>
-            </div>
 
-            {/* Single Item Card  3*/}
-            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300"
-                alt="Artisan Image"
-                className="h-32 w-full object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-md font-semibold text-gray-700">
-                  Artisan Shop Name
-                </h3>
-                <p className="text-sm text-gray-500">Description</p>
-                <p className="text-xs text-gray-400 mt-2">Location</p>
-                <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
-                </button>
-              </div>
-            </div>
-
-            {/* Single Item Card  4*/}
-            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300"
-                alt="Artisan Image"
-                className="h-32 w-full object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-md font-semibold text-gray-700">
-                  Artisan Shop Name
-                </h3>
-                <p className="text-sm text-gray-500">Description</p>
-                <p className="text-xs text-gray-400 mt-2">Location</p>
-                <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
-                </button>
-              </div>
-            </div>
-
-            {/* Single Item Card  5*/}
-            <div className="bg-gray-100 rounded-lg shadow overflow-hidden">
-              <img
-                src="https://via.placeholder.com/300"
-                alt="Artisan Image"
-                className="h-32 w-full object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-md font-semibold text-gray-700">
-                  Artisan Shop Name
-                </h3>
-                <p className="text-sm text-gray-500">Description</p>
-                <p className="text-xs text-gray-400 mt-2">Location</p>
-                <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
-                </button>
-              </div>
-            </div>
-
-            {/* Add more artisan cards here */}
-          </div>
         </section>
       </main>
 
-      <ShopList />
 
       <Footer />
     </>
