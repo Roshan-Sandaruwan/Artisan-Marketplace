@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 export const createShop = async (req, res) => {
   const shop = req.body;
 
-  if (!shop.name || !shop.description || !shop.coverImage) {
+  if (!shop.name || !shop.description || !shop.coverImage || !shop.shopLocation) {
     return res
       .status(400)
       .json({ success: false, message: "Please provide all fields" });
