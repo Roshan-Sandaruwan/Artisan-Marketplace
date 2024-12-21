@@ -2,6 +2,7 @@ import express from "express";
 import { connectDB } from "./config/db.js";
 import productRoutes from "./routes/product.route.js";
 import shopRoutes from "./routes/shop.route.js";
+import userRoutes from "./routes/user.route.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -12,7 +13,7 @@ app.use(express.json());
 //Product api
 app.use("/api/products", productRoutes);
 app.use("/api/shops", shopRoutes);
-
+app.use("/api/users", userRoutes);
 
 app.listen(PORT, () => {
   connectDB();
