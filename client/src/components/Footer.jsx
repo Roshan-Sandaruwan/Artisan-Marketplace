@@ -35,7 +35,7 @@ const Footer = () => {
         {/* Column 2 - Company Info */}
         <div>
           <h2 className="text-lg font-semibold text-white mb-4">
-            About Artify
+            About Artifi
           </h2>
           <p className="text-sm leading-relaxed">
             We connect local artisans with premium customers, bringing
@@ -69,7 +69,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center mt-6">
         {/* Copyright */}
         <p className="text-sm text-gray-400">
-          &copy; {new Date().getFullYear()} Artify. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Artifi. All Rights Reserved.
         </p>
 
         {/* Social Media Icons */}

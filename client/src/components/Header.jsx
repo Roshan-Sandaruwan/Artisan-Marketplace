@@ -43,7 +43,7 @@ const Header = () => {
       {/* Center Section */}
       <div className="text-center">
         <h1 className="text-lg font-semibold text-white">
-          <span className="font-bold">Artify</span>
+          <span className="font-bold">Artifi</span>
         </h1>
         <p className="text-xs text-gray-100">Best Handmade Products</p>
       </div>
