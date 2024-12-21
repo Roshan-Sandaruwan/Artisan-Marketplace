@@ -33,7 +33,7 @@ const AboutusPage = () => {
                 Who We Are
               </h2>
               <p className="mt-4 text-gray-100 leading-relaxed">
-                "Artisan Marketplace" is a platform designed to bring talented
+                Artisan Marketplace is a platform designed to bring talented
                 local Artisan and creators together with premium customers. We
                 showcase unique, high-quality handmade goods ranging from art,
                 decor, and clothing to specialty items that you won’t find
