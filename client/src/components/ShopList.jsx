@@ -40,7 +40,7 @@ const ShopList = () => {
                   {shop.shopLocation}
                 </p>
                 <button className="mt-4 text-blue-600 text-sm font-medium">
-                  View items
+                  Visit Shop
                 </button>
               </div>
             </div>
