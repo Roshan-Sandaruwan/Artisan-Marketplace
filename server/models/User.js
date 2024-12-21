@@ -1,28 +1,34 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'Please provide name'],
+      required: [true, "Please provide name"],
+      trim: true,
+    },
+    username: {
+      type: String,
+      required: [true, "Please provide username"],
+      unique: true,
       trim: true,
     },
     email: {
       type: String,
-      required: [true, 'Please provide email'],
+      required: [true, "Please provide email"],
       unique: true,
       lowercase: true,
       trim: true,
     },
     password: {
       type: String,
-      required: [true, 'Please provide password'],
+      required: [true, "Please provide password"],
       minlength: 6,
       select: false,
     },
     role: {
       type: String,
-      enum: ['buyer', 'artisan', 'admin'],
-      default: 'buyer',
+      enum: ["buyer", "artisan", "admin"],
+      default: "buyer",
     },
     createdAt: {
       type: Date,
@@ -57,6 +63,6 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-const User = mongoose.model('User', userSchema);
+const User = mongoose.model("User", userSchema);
 
 export default User;
