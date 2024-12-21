@@ -3,7 +3,7 @@ import { createProduct, deleteProduct, getProducts, updateProduct } from "../con
 
 const router = express.Router();
 
-//product CRUD
+// Product CRUD
 router.post("/", createProduct);
 router.get("/", getProducts);
 router.patch("/:id", updateProduct);
